@@ -2,9 +2,112 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>h5列表</title>
+    <script type="application/javascript">
+
+        function onclick() {
+            let select = document.getElementById("select")
+            window.alert(select.value)
+            alert(select.valueOf())
+        }
+
+    </script>
 </head>
 <body>
+<h1>h1</h1>
+<h2>h2</h2>
+<h3>h3</h3>
+<h4>h4</h4>
+<h5>h5</h5>
+<h6>h6</h6>
+<p>p标签</p>
+<br>br标签</br>
+
+<a href="http://www.baidu.com" target="_top">
+    <img id="a_img" src="../img/a1.png">
+</a>
+<div style="height: 800px;width: 100%; background: aqua">
+    <div id="top" style="height: 10%;width: 100%;background: red;align-items: center">
+        <span style="color: #000; size: 30px;">span</span>
+        <strong style="color: #000; size: 30px;">strong</strong>
+        <em style="color: #000; size: 30px;">em</em>
+        <i style="color: #000; size: 30px;">i</i>
+        <b style="color: #000; size: 30px;">b</b>
+        <small style="color: #000; size: 30px;">small</small>
+        <big style="color: #000; size: 30px;">big</big>
+        <br style="color: #000; size: 30px;">br</br>
+
+    </div>
+    <div id="center" style="height: 80%;width: 100%;background: yellow">
+        <div style="height: 100%;width: 10%;background: saddlebrown;float: left;">
+            <!--有序列表-->
+            <ol>
+                <li>java</li>
+                <li>android</li>
+                <li>ios</li>
+            </ol>
+            <ul type="circle">//有序列表
+                <li>java</li>
+                <li>android</li>
+                <li>ios</li>
+            </ul>
+            <dl>
+                <dd>1</dd>
+                <dd>2</dd>
+                <dd>3</dd>
+                <dd>4</dd>
+            </dl>
+            <dl>
+
+                <dt>这是dl列表的标题</dt>
+
+                <dd>描述项1</dd>
+
+                <dd>描述项2</dd>
+
+                <dd>描述项3</dd>
+
+            </dl>
+        </div>
+        <div style="height: 100%;width: 90%;background: darkblue;float: left;">
+
+            <figure>
+                <img src="../img/a6.png" title="a6"/>
+                <figcaption>图片说明</figcaption>
+            </figure>
+
+            <table border="1px" align="center" bgcolor="aqua">
+                <tr>
+                    <td>td</td>
+                    <th>th</th>
+                </tr>
+                <tr>
+                    <td>td</td>
+                    <th>th</th>
+                </tr>
+
+            </table>
+            <input name="input" value="input" placeholder="place holder" type="file"/>
+            <input name="input" value="input" placeholder="place holder" type="button"/>
+            <input checked="true" name="input" value="input" placeholder="place holder" type="checkbox"/>
+            <select id="select" onsubmit="onclick">
+                <option>java</option>
+                <option>android</option>
+                <option>ios</option>
+            </select>
+            <div>
+                <video src="../file/2.mp4" id="video" height="500px" width="500px" controls="controls" autoplay=""true>video</video>
+            </div>
+
+        </div>
+
+    </div>
+    <div id="button" style="height: 10%;width: 100%;background:blueviolet">tip</div>
+
+
+</div>
+<link rel="icon" href="https://www.cnblogs.com/fengli-a/p/6442175.html">
+
 
 </body>
 </html>
