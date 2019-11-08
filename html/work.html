@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="application/javascript">
+        let work = null
+
+        function start() {
+            let div = document.getElementById("count_div")
+            if (!work) {
+                work = new Worker("../js/count.js")
+            }
+
+            work.onmessage = function (ev) {
+                div.innerHTML = ev.data
+                if (countNumber == 10) {
+                    work.terminate()
+                }
+            }
+        }
+
+        function end() {
+            if (work) {
+                work.terminate()
+                work = null
+            }
+        }
+    </script>
+</head>
+<body>
+<div id="count_div">t</div>
+<button id="start" onclick="start()">开始</button>
+<button id="end" onclick="end()">停止</button>
+</body>
+</html>
