@@ -1,0 +1,26 @@
+#div{
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    height: 1300px;
+    width: 100%;
+    background: blue;
+}
+ #div1{
+     margin: auto;
+    height: 100px;
+    width: 100px;
+    background: rebeccapurple;
+}
+#div2{
+    vertical-align: center;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    background: darkgray;
+    font-style: oblique;
+    text-transform: capitalize;
+    font-family: "Songti SC";
+    line-height: 10px;
+}

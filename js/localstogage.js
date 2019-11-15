@@ -12,3 +12,4 @@ window.onload = function () {
         text.value = localStorage.getItem("text")
     }
 }
+

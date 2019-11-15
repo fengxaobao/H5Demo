@@ -1,0 +1,55 @@
+
+ul, li {
+    list-style: none;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main, .h_main {
+    width: 100px;
+    background-color: #3333ee;
+    background-repeat: repeat-x;
+}
+
+.main ul, .h_main ul {
+    display: none;
+    background: none;
+}
+
+a {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: #000000;
+    size: 14px;
+
+}
+
+li {
+    background-color: #eeeeee;
+}
+
+.main li a, .h_main li a {
+    color: blue;
+    background-image: none;
+}
+
+.main a, .h_main a {
+    color: white;
+    background-image: url("../img/a34.png");
+    background-repeat: no-repeat;
+    background-position: 3px center;
+}
+
+.h_main {
+    margin-left: 10px;
+    float: left;
+}
+div{
+    height: 300px;
+    width: 300px;
+}

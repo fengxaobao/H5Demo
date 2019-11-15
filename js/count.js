@@ -7,6 +7,6 @@ let count = function () {
     }else {
         setTimeout(count, 1000)
     }
-
+    document.getElementsByName("1")
 }
 count()

@@ -1,0 +1,76 @@
+.div_group {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    background: black;
+    border: 2px solid red;
+    margin-top: 20px;
+}
+
+#div4 {
+    line-height: 100px;
+    text-align: center;
+    display: none;
+    width: 100px;
+    height: 100px;
+    background: yellow;
+}
+
+#div5 {
+    line-height: 100px;
+    text-align: center;
+    display: none;
+
+    width: 100px;
+    height: 100px;
+    background: salmon;
+}
+
+#div6 {
+    line-height: 100px;
+    text-align: center;
+    display: none;
+
+    width: 100px;
+    height: 100px;
+    background: blue;
+}
+
+#div1 {
+    line-height: 100px;
+    text-align: center;
+    display: none;
+    width: 100px;
+    height: 100px;
+    background: yellow;
+}
+
+#div2 {
+    line-height: 100px;
+    text-align: center;
+    display: none;
+    width: 100px;
+    height: 100px;
+    background: salmon;
+}
+
+#div3 {
+    line-height: 100px;
+    text-align: center;
+    display: none;
+    width: 100px;
+    height: 100px;
+    background: blue;
+}
+
+button {
+    text-align: center;
+    text-align-all: center;
+    padding: 5px;
+    width: auto;
+    height: auto;
+    size: 30px;
+    color: #000;
+    background: white;
+}
